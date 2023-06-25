@@ -1,0 +1,15 @@
+{
+  "name": "SWSD004",
+  "version": "1.2.0",
+  "build": {
+    "flags": [
+      "-Igeolocation_middleware/bsp",
+      "-Igeolocation_middleware/common",
+      "-Igeolocation_middleware/gnss/src",
+      "-Igeolocation_middleware/wifi/src"
+    ],
+    "srcFilter": [
+      "+<geolocation_middleware/*>"
+    ]
+  }
+}
