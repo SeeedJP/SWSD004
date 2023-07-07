@@ -59,17 +59,23 @@ extern "C" {
 /*!
  * @brief The maximal time to spend in preamble detection for each single scan, in ms
  */
+#ifndef WIFI_TIMEOUT_PER_SCAN_DEFAULT
 #define WIFI_TIMEOUT_PER_SCAN_DEFAULT ( 90 )
+#endif
 
 /*!
  * @brief The time to spend scanning one channel, in ms
  */
+#ifndef WIFI_TIMEOUT_PER_CHANNEL_DEFAULT
 #define WIFI_TIMEOUT_PER_CHANNEL_DEFAULT ( 300 )
+#endif
 
 /*!
  * @brief The maximal number of results to gather. Maximum value is 32
  */
+#ifndef WIFI_MAX_RESULTS
 #define WIFI_MAX_RESULTS ( 5 )
+#endif
 
 /*
  * -----------------------------------------------------------------------------
